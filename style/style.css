@@ -62,3 +62,65 @@ nav {
   padding: 1.2rem 1.5rem 1.2rem 1.5rem;
   border: none;
 }
+
+.banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5rem;
+}
+.banner-text {
+  fill: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
+}
+
+.banner-section h3 {
+  color: #0b0223;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.banner-section h1 {
+  font-size: 8rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-section p {
+  margin: 1.2rem 0 2.5rem;
+  color: #534c64;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.sign-in-btn {
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  padding: 1.5rem 3rem;
+  border: none;
+}
+.sign-in-btn a,
+.go-rogue-btn a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.go-rogue-btn {
+  margin-left: 2rem;
+  border-radius: 48px;
+  background: #4ec5f7;
+  padding: 1.5rem 3rem;
+  border: none;
+}
+.banner-img-container {
+  border: 1px solid red;
+}
+.banner-photo {
+  width: 600px;
+}
