@@ -131,24 +131,24 @@ main {
 .online-game-section {
   margin: 8rem auto;
 }
-.online-title{
+.online-title {
   color: #0b0223;
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
 }
-.title-span{
+.title-span {
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.online-game-description{
-color: #534C64;
-text-align: center;
-font-size: 1.8rem;
-line-height: 2rem; 
-margin: 3rem 0;
+.online-game-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin: 3rem 0;
 }
 
 .online-watch-card {
@@ -159,18 +159,16 @@ margin: 3rem 0;
   gap: 5rem;
 }
 .online-watch-card img {
-  width: 100%;
+  /* width: 100%; */
 }
 .hover-container {
   position: relative;
   width: 100%;
-  max-width: 400px;
 }
 
 .hover-img {
-  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .overlay {
@@ -189,7 +187,7 @@ margin: 3rem 0;
 
 .hover-container:hover .overlay {
   opacity: 1;
-  height: 91%;
+  height: 80%;
 }
 
 .icon {
@@ -217,12 +215,15 @@ margin: 3rem 0;
 .fa-user:hover {
   color: #eee;
 }
-
-.card-text {
+#img-height {
+  /* height: 300px; */
+}
+.text-ubder-card {
   color: #534c64;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 500;
-  line-height: 2rem; /* 150% */
+  line-height: 2rem;
+  margin: 1rem 0;
 }
 
 .play-instant-section {
