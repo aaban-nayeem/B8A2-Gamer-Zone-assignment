@@ -205,6 +205,29 @@ main {
   top: -90px;
   righ: 23rem;
 }
+.game-play-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.game-play-btn div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+.game-play-btn img {
+  width: 50px;
+}
+.game-play-btn span {
+  color: #0b0223;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
 footer {
   background: #0b0223;
   height: 400px;
