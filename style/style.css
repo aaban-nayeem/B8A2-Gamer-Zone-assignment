@@ -131,35 +131,94 @@ main {
 .online-game-section {
   margin: 8rem auto;
 }
-.online-game-section h3 {
+.online-title{
   color: #0b0223;
   font-size: 4rem;
   font-weight: 700;
   text-align: center;
 }
-.online-game-section > h3 > span {
+.title-span{
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.online-game-section > p {
-  color: #534c64;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  padding: 2rem 0;
+.online-game-description{
+color: #534C64;
+text-align: center;
+font-size: 1.8rem;
+line-height: 2rem; 
+margin: 3rem 0;
 }
+
 .online-watch-card {
   display: grid;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
 }
 .online-watch-card img {
-  width: 85%;
+  width: 100%;
 }
-.online-watch-card p {
+.hover-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.hover-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(30, 4, 4, 0.6);
+}
+
+.hover-container:hover .overlay {
+  opacity: 1;
+  height: 91%;
+}
+
+.icon {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.watch-now {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-user:hover {
+  color: #eee;
+}
+
+.card-text {
   color: #534c64;
   font-size: 1.2rem;
   font-weight: 500;
@@ -211,6 +270,7 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  margin-bottom: 4rem;
 }
 .game-play-btn div {
   display: flex;
