@@ -13,7 +13,7 @@ html {
 
 nav {
   display: flex;
-  height: 100px;
+  height: 80px;
   justify-content: space-around;
   background-color: ##fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -271,17 +271,30 @@ main {
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 .game-play-btn div {
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 0.5rem;
+  padding: 5px;
+
+}
+.game-play-btn div:hover {
+  padding: 5px;
+
+  border: 1.5px solid #ff42a5;
+  border-radius: 4rem;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .game-play-btn img {
   width: 50px;
+
+
 }
 .game-play-btn span {
   color: #0b0223;
