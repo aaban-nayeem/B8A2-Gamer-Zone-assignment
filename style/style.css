@@ -124,7 +124,47 @@ nav {
 .banner-photo {
   width: 600px;
 }
-
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+.online-game-section {
+  margin: 8rem auto;
+}
+.online-game-section h3 {
+  color: #0b0223;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+.online-game-section > h3 > span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-game-section > p {
+  color: #534c64;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding: 2rem 0;
+}
+.online-watch-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+.online-watch-card img {
+  width: 85%;
+}
+.online-watch-card p {
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 2rem; /* 150% */
+}
 footer {
   background: #0b0223;
   height: 400px;
@@ -170,23 +210,15 @@ footer {
 }
 .term-policy,
 footer > p {
-   margin: 3rem;
-    display: flex;
-    justify-content: center;
-    color: rgba(255, 255, 255, 0.6);
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 500;
-    list-style-type: none;
-  }
-  .term-policy li {
-    margin-right: 3rem;
-  }
-
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  font-size: ;
-  font-style: normal;
+  font-size: 1.3rem;
   font-weight: 500;
-  line-height: normal;
+  list-style-type: none;
+}
+.term-policy li {
+  margin-right: 3rem;
 }
