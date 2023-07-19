@@ -165,6 +165,46 @@ main {
   font-weight: 500;
   line-height: 2rem; /* 150% */
 }
+
+.play-instant-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8rem;
+}
+
+.play-instant-text h3 {
+  text-align: right;
+  font-size: 4.5rem;
+  color: #0b0223;
+  font-weight: 700;
+  line-height: 5rem;
+  margin-bottom: 2rem;
+}
+.play-instant-text h3 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-instant-text p {
+  text-align: right;
+  color: #534c64;
+  font-size: 1.5rem;
+  line-height: 2rem; /* 166.667% */
+}
+.large-img {
+  width: 80%;
+  position: relative;
+  top: 8rem;
+  left: 10rem;
+}
+.small-img {
+  width: 40%;
+  position: relative;
+  top: -90px;
+  righ: 23rem;
+}
 footer {
   background: #0b0223;
   height: 400px;
